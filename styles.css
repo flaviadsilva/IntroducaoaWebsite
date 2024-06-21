@@ -13,11 +13,12 @@ body {
 .foto img {
     height: auto;
     width: 100px;
+    border-radius:360px;
 }
 
 header {
     background-color: #000000;
-    color: rgb(255, 255, 255);
+    color: rgb(214, 193, 238);
     padding: 10px 0;
     text-align: center;
 }
@@ -27,7 +28,7 @@ nav ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #cf0000;
+    background-color: #d3baeb;
     text-align: center;
 }
 
@@ -74,4 +75,34 @@ footer {
 #contato a {
     text-decoration: none;
     color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.links img {
+    height: auto;
+    width: 100px;
+    border-radius: 360px;
+}
+
+#titalo {
+    text-align: center;
+}
+#Processo a {
+    text-decoration: none;
+    color: #000000;
+
+}
+#Processo{
+    text-align: center;
+}
+#sobre {
+    text-align: center;
 }
